@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./dist/output.css" />
   </head>
-  <body class="h-[1000vh]">
+  <body class="h-[1000vh] break-all ">
     <main>
       <section>
         <div>
@@ -197,7 +197,7 @@
                   />
                 </div>
                 <div class="w-full">
-                  <select class="h-[65px] w-full px-[22px] " name="" id="">
+                  <select class="h-[65px] w-full px-[22px]" name="" id="">
                     <option value="">Destination</option>
                     <option value="Africa Adventure">Africa Adventure</option>
                     <option value="">Africa Wild</option>
@@ -292,125 +292,249 @@
 
       <section>
         <div class="">
-          <div class="max-w-[1220px] mx-auto border pt-[74px]">
-            <div class="">
-              <div class="mb-3">
-                <h1
-                  class="text-4xl font-sans tracking-wide font-bold text-center"
-                >
-                  Popular Destinations
-                </h1>
-              </div>
-              <div class="text-center">
-                <a href="">
-                  <span class="text-sm text-orange-600 tracking-wide mr-1"
-                    >View All Destinations</span
+          <div class="max-w-[1220px] mx-auto  pt-[74px] ">
+            <div class=" ">
+              <div class="mb-16">
+                <div class="mb-3">
+                  <h1
+                    class="text-4xl font-sans tracking-wide font-bold text-center"
                   >
-                  <img
-                    class="w-5 h-5 inline-block"
-                    src="./img/arrow-right-solid.svg"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div class="grid grid-cols-3 ">
-                <div class="col-span-2 px-5 mb-10 relative w-full group ">
-                  <div class="overflow-hidden relative">
+                    Popular Destinations
+                  </h1>
+                </div>
+                <div class="text-center">
+                  <a href="">
+                    <span class="text-sm text-orange-600 tracking-wide mr-1"
+                      >View All Destinations</span
+                    >
                     <img
-                      class="aspect-[400/189] object-cover"
-                      src="./img/place/pexels-julius-silver-753639.jpg"
+                      class="w-5 h-5 inline-block"
+                      src="./img/arrow-right-solid.svg"
                       alt=""
                     />
-                    <div
-                      class="absolute bg-black top-0 right-0 left-0 bottom-0 opacity-0 hover:opacity-40 duration-300"
-                    ></div>
-                  </div>
-
-                  <div
-                    class="absolute right-10 top-5 px-4 py-2 rounded-md bg-orange-500 text-white text-sm font-bold"
-                  >
-                    3 tours
-                  </div>
-                  <div class=" absolute  top-full  left-0 right-0 group-hover:tra">
-                    <div class="px-6 pb-[40px]  -translate-y-full  ">
-                      <h1 class="text-center font-bold font-sans text-2xl text-black ">Western Europe</h1>
+                  </a>
+                </div>
+              </div>
+              <div class="grid grid-cols-3">
+                <div class="col-span-2 px-5 mb-10">
+                  <div  class="relative w-full group">
+                    <div class="overflow-hidden relative">
+                      <img
+                        class="aspect-[400/189] object-cover"
+                        src="./img/place/pexels-julius-silver-753639.jpg"
+                        alt=""
+                      />
                     </div>
-                    <div class="relative px-12">
-                      <div class="text-center ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separate.</div>
-                      <a class="text-center" href="">VIEW ALL TOURS</a>
+                    <div
+                      class="absolute bg-black top-0 right-0 left-0 bottom-0 opacity-0 group-hover:opacity-40 duration-300"
+                    ></div>
+  
+                    <div
+                      class="absolute right-10 top-5 px-4 py-2 rounded-md bg-orange-500 text-white text-sm font-bold"
+                    >
+                      3 tours
+                    </div>
+                    <div
+                      class="absolute top-full group left-0 right-0 group-hover:-translate-y-full duration-300 pointer-events-none"
+                    >
+                      <div
+                        class="px-6 pb-[40px] -translate-y-full group-hover:pb-[35px]"
+                      >
+                        <h1
+                          class="text-center font-bold font-sans text-2xl text-white"
+                        >
+                          Western Europe
+                        </h1>
+                      </div>
+                      <div
+                        class="relative text-center px-16 group-hover:-translate-y-full opacity-0 group-hover:opacity-100"
+                      >
+                        <div class="font-sans text-white tracking-wide mb-5">
+                          Far far away, behind the word mountains, far from the
+                          countries Vokalia and Consonantia, there live the blind
+                          texts. Separate.
+                        </div>
+                        <a class="text-orange-500 font-bold" href=""
+                          >VIEW ALL TOURS</a
+                        >
+                      </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="px-5 mb-10 relative">
-                  <div class="relative overflow-hidden">
-                    <img
-                      class="object-cover aspect-square"
-                      src="./img/place/pexels-karolina-kot-6469495.jpg"
-                      alt=""
-                    />
+                <div class="px-5 mb-10">
+                  <div class=" relative group">
+                    <div class="relative overflow-hidden">
+                      <img
+                        class="object-cover aspect-square"
+                        src="./img/place/pexels-karolina-kot-6469495.jpg"
+                        alt=""
+                      />
+                    </div>
                     <div
-                      class="absolute bg-black top-0 right-0 left-0 bottom-0 opacity-0 hover:opacity-40 duration-300"
+                      class="absolute bg-black top-0 right-0 left-0 bottom-0 opacity-0 group-hover:opacity-40 duration-300 "
                     ></div>
-                  </div>
-                  <div
-                    class="absolute right-10 top-5 px-4 py-2 rounded-md bg-orange-500 text-white text-sm font-bold"
-                  >
-                    2 tours
+                    <div
+                      class="absolute right-10 top-5 px-4 py-2 rounded-md bg-orange-500 text-white text-sm font-bold"
+                    >
+                      2 tours
+                    </div>
+                    <div
+                      class="absolute top-full group left-0 right-0 group-hover:-translate-y-full duration-300 pointer-events-none"
+                    >
+                      <div
+                        class="px-6 pb-[40px] -translate-y-full group-hover:pb-[35px]"
+                      >
+                        <h1
+                          class="text-center font-bold font-sans text-2xl text-white"
+                        >
+                          Scandinavia
+                        </h1>
+                      </div>
+                      <div
+                        class="relative text-center px-16 group-hover:-translate-y-[50%] opacity-0 group-hover:opacity-100"
+                      >
+                        <div class="font-sans text-white tracking-wide mb-5">
+                          Far far away, behind the word mountains, far from the
+                          countries Vokalia and Consonantia, there live the blind
+                          texts. Separate.
+                        </div>
+                        <a class="text-orange-500 font-bold" href=""
+                          >VIEW ALL TOURS</a
+                        >
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="px-5 relative">
+
+                <div class="px-5 "><div class="relative group">
                   <div class="relative overflow-hidden">
                     <img
                       class="object-cover aspect-square"
                       src="./img/place/pexels-pixabay-248082.jpg"
                       alt=""
                     />
-                    <div
-                      class="absolute bg-black top-0 right-0 left-0 bottom-0 opacity-0 hover:opacity-40 duration-300"
-                    ></div>
                   </div>
+                  <div
+                    class="absolute bg-black top-0 right-0 left-0 bottom-0 opacity-0 group-hover:opacity-40 duration-300"
+                  ></div>
                   <div
                     class="absolute right-10 top-5 px-4 py-2 rounded-md bg-orange-500 text-white text-sm font-bold"
                   >
                     5 tours
                   </div>
-                </div>
+                  <div
+                    class="absolute top-full group left-0 right-0 group-hover:-translate-y-full duration-300 pointer-events-none"
+                  >
+                    <div
+                      class="px-6 pb-[40px] -translate-y-full group-hover:pb-[35px]"
+                    >
+                      <h1
+                        class="text-center font-bold font-sans text-2xl text-white"
+                      >
+                        Asia
+                      </h1>
+                    </div>
+                    <div
+                      class="relative text-center px-16 group-hover:-translate-y-[50%] opacity-0 group-hover:opacity-100"
+                    >
+                      <div class="font-sans text-white tracking-wide mb-5">
+                        Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind
+                        texts. Separate.
+                      </div>
+                      <a class="text-orange-500 font-bold" href=""
+                        >VIEW ALL TOURS</a
+                      >
+                    </div>
+                  </div>
+                </div></div>
 
-                <div class="px-5 relative">
+                <div class="px-5" ><div class=" relative group">
                   <div class="relative overflow-hidden">
                     <img
                       class="object-cover aspect-square"
                       src="./img/place/pexels-pixabay-208745.jpg"
                       alt=""
                     />
-                    <div
-                      class="absolute bg-black top-0 right-0 left-0 bottom-0 opacity-0 hover:opacity-40 duration-300"
-                    ></div>
                   </div>
+                  <div
+                    class="absolute bg-black top-0 right-0 left-0 bottom-0 opacity-0 group-hover:opacity-40 duration-300"
+                  ></div>
                   <div
                     class="absolute right-10 top-5 px-4 py-2 rounded-md bg-orange-500 text-white text-sm font-bold"
                   >
                     4 tours
                   </div>
-                </div>
-                <div class="px-5 relative">
-                  <div class="relative overflow-hidden">
+                  <div
+                    class="absolute top-full group left-0 right-0 group-hover:-translate-y-full duration-300 pointer-events-none"
+                  >
+                    <div
+                      class="px-6 pb-[40px] -translate-y-full group-hover:pb-[35px]"
+                    >
+                      <h1
+                        class="text-center font-bold font-sans text-2xl text-white"
+                      >
+                        America
+                      </h1>
+                    </div>
+                    <div
+                      class="relative text-center px-16 group-hover:-translate-y-[50%] opacity-0 group-hover:opacity-100"
+                    >
+                      <div class="font-sans text-white tracking-wide mb-5">
+                        Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind
+                        texts. Separate.
+                      </div>
+                      <a class="text-orange-500 font-bold" href=""
+                        >VIEW ALL TOURS</a
+                      >
+                    </div>
+                  </div>
+                </div></div>
+
+                <div class="px-5"><div class="relative group ">
+                  <div class="relative ">
                     <img
                       class="object-cover aspect-square"
                       src="./img/place/pexels-elianne-dipp-4751260.jpg"
                       alt=""
                     />
-                    <div
-                      class="absolute bg-black top-0 right-0 left-0 bottom-0 opacity-0 hover:opacity-40 duration-300"
-                    ></div>
                   </div>
                   <div
-                    class="absolute right-10 top-5 px-4 py-2 rounded-md bg-orange-500 text-white text-sm font-bold"
+                    class="absolute  bg-black top-0 right-0 left-0 bottom-0 opacity-0 group-hover:opacity-40 duration-300"
+                  ></div>
+                  <div
+                    class="absolute  right-10 top-5 px-4 py-2 rounded-md bg-orange-500 text-white text-sm font-bold"
                   >
                     3 tours
                   </div>
-                </div>
+                  <div
+                    class="absolute top-full group left-0 right-0 group-hover:-translate-y-full duration-300 pointer-events-none"
+                  >
+                    <div
+                      class="px-6 pb-[40px] -translate-y-full group-hover:pb-[35px]"
+                    >
+                      <h1
+                        class="text-center font-bold font-sans text-2xl text-white"
+                      >
+                        Africa Wild
+                      </h1>
+                    </div>
+                    <div
+                      class="relative text-center px-16 group-hover:-translate-y-[50%] opacity-0 group-hover:opacity-100 "
+                    >
+                      <div class="font-sans text-white tracking-wide mb-5">
+                        Far far away, behind the word mountains, far from the
+                        countries Vokalia and Consonantia, there live the blind
+                        texts. Separate.
+                      </div>
+                      <a class="text-orange-500 font-bold" href=""
+                        >VIEW ALL TOURS</a
+                      >
+                    </div>
+                  </div>
+                </div></div>
               </div>
             </div>
           </div>
